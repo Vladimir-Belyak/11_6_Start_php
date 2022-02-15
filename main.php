@@ -45,26 +45,16 @@
 
             <div class="knowledge">
                                    
-                    <?php  require_once 'knowledge.inc.php'; ?>
-                    <?php   echo $a, ' ', $b, ' ', $c; ?> <br>
-                    <p> Мы научились работать с переменными </p>                
+                    <?php  require_once 'knowledge.inc.php'; ?>       
                     <?php
-                        $a = 10;
-                        $b = 20;
-                        $c = $a + $b;
-                        echo $c;
-                    ?>   <br>                
-                     <?php
-                        echo $d;
-                    ?> 
-
+                        echo $a.$b.$c.$d.$e.$f;
+                    ?>
             </div>
         </div>
 
             <?php require_once 'footer.inc.php' ?>
 
     </div>
-
 
 </body>
 </html>

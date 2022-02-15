@@ -87,6 +87,8 @@ li a:hover{
 }
 
 .knowledge {
+    font-size: 1.1rem;
+    padding: 20px;
     display: flex;
     flex-direction: column;   
     justify-content: center;
